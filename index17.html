@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="fruit">
+        <option value="apple">Apple</option>
+        <option value="banana" selected>Banana</option>
+      </select>
+      <br> <br>
+
+      <div id="view" class="view">Текст</div>
+
+      <pre id="mouse">
+        _   _
+       (q\_/p)
+        /. .\
+       =\_t_/=   __
+        /   \   (
+       ((   ))   )
+       /\) (/\  /
+       \  Y  /-'
+        nn^nn
+       </pre>
+
+       <br><br>
+
+    
+  <form name="calculator">
+    <table>
+      <tr>
+        <td>The first deposit</td>
+        <td>
+          <input name="money" type="number" value="10000" required>
+        </td>
+      </tr>
+      <tr>
+        <td>The period of time</td>
+        <td>
+          <select name="months">
+            <option value="3">3 (min)</option>
+            <option value="6">6 (months)</option>
+            <option value="12" selected>12 (a year)</option>
+            <option value="18">18 (1.5 years)</option>
+            <option value="24">24 (2 years)</option>
+            <option value="30">30 (2.5 years)</option>
+            <option value="36">36 (3 years)</option>
+            <option value="60">60 (5 years)</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>The persent in a year</td>
+        <td>
+          <input name="interest" type="number" value="5" required>
+        </td>
+      </tr>
+    </table>
+
+
+  </form>
+
+
+  <table id="diagram">
+    <tr>
+      <th>Before:</th>
+      <th>After:</th>
+    </tr>
+    <tr>
+      <th id="money-before"></th>
+      <th id="money-after"></th>
+    </tr>
+    <td>
+      <div style="background: red;width:40px;height:100px"></div>
+    </td>
+    <td>
+      <div style="background: green;width:40px;height:0" id="height-after"></div>
+    </td>
+  </table>
+
+  <h2>Enter the button</h2>
+
+  <input type="button" value="Enter the button" id="show-button">
+
+
+  <div id="prompt-form-container">
+    <form id="prompt-form">
+      <div id="prompt-message"></div>
+      <input name="text" type="text">
+      <input type="submit" value="Ok">
+      <input type="button" name="cancel" value="Cancel">
+    </form>
+  </div> 
+
+    <script src="main17.js"></script>
+</body>
+</html>
